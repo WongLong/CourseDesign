@@ -10,7 +10,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- *
+ * 
  * @author 10527
  *
  */
@@ -18,15 +18,15 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
-		Label label = new Label("è¯¾ç¨‹è®¾è®¡");
+		Label label = new Label("¿Î³ÌÉè¼Æ");
 		label.setPrefHeight(100);
 		label.setStyle("-fx-font-size: 20px;-fx-font-weight: 700");
-		newBt bt1 = new newBt("ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½");
-		newBt bt2 = new newBt("24ï¿½ï¿½ï¿½Ë¿ï¿½ï¿½ï¿½ï¿½ï¿½Ï·");
-		newBt bt3 = new newBt("16Ã¶Ó²ï¿½ï¿½");
-		newBt bt4 = new newBt("ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼");
-		newBt bt5 = new newBt("Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
-		newBt bt6 = new newBt("ï¿½Ô¹ï¿½ï¿½ï¿½ï¿½ï¿½");
+		newBt bt1 = new newBt("Êý¾ÝÑ¹ËõÓë½âÑ¹Ëõ");
+		newBt bt2 = new newBt("24µãÆË¿ËÅÆÓÎÏ·");
+		newBt bt3 = new newBt("16Ã¶Ó²±Ò");
+		newBt bt4 = new newBt("ÏßÐÔ±í¡¢Ê÷¡¢Í¼");
+		newBt bt5 = new newBt("Å©·ò¹ýºÓ");
+		newBt bt6 = new newBt("ÃÔ¹¬ÎÊÌâ");
 
 		BorderPane bp = new BorderPane();
 		bp.setCenter(label);
@@ -43,7 +43,7 @@ public class Main extends Application {
 
 		Scene scene = new Scene(body);
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("ï¿½Î³ï¿½ï¿½ï¿½ï¿½ï¿½");
+		primaryStage.setTitle("¿Î³ÌÉè¼Æ");
 		primaryStage.show();
 
 		bt1.setOnAction(e -> {
